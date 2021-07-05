@@ -14,6 +14,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .haf-widht {
@@ -40,4 +41,27 @@ section {
 .top-banner {
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.download-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: white;
+    width: 800;
+
+}
+
+
+
+
+
+
+.Dream-Big {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
 }
