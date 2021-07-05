@@ -12,15 +12,27 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
 
 .haf-widht {
-    width: 50%;
-    padding-left: 2%;
+    width: 40%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 40px grey;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-left: 5px solid;
 
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+
+}
+
+#robe-lefr {
+    border-image: linear-gradien(blue, cyan);
+    border-image-slice: 1;
 
 }
 
@@ -53,10 +65,18 @@ section {
 
 }
 
+.experience-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
 
+}
 
 
+.full-stack {
+    font-size: 40px;
+}
 
 .Dream-Big {
     background-image: url(image/dream-bg.png);
@@ -64,4 +84,8 @@ section {
     background-position: right;
 
 
+}
+
+.joy {
+    color: orange;
 }
